@@ -1,0 +1,8 @@
+
+<div>
+  <button (click)="login()" *ngIf="!token">Login</button>
+  <button (click)="logout()" *ngIf="token">Logout</button>
+</div>
+
+<router-outlet></router-outlet>
+
